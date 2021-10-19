@@ -3,7 +3,7 @@
     "start": "webpack serve --mode development",
     "watch": "webpack --mode development -w",
     "dev": "webpack --mode development",
-    "prod": "webpack --mode production"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
