@@ -1,0 +1,20 @@
+@use 'variable';
+@use 'logo';
+
+body,html{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+div ,h1{
+    margin: 0;
+    padding: 0;
+}
+
+
+#root{
+    color:variable.$bg;
+    // background: radial-gradient(black,red);
+}
