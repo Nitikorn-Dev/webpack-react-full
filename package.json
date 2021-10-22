@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "start": "webpack serve --mode development",
-    "watch": "webpack --mode development -w",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "start": "webpack serve",
+    "watch": "webpack -w",
+    "build-dev": "webpack",
+    "build-prod": "set NODE_ENV=production&& webpack"
   },
   "keywords": [],
   "author": "",
@@ -12,13 +12,16 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
     "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
     "css-loader": "^6.4.0",
     "html-webpack-plugin": "^5.4.0",
     "mini-css-extract-plugin": "^2.4.2",
     "postcss": "^8.3.9",
     "postcss-loader": "^6.2.0",
     "postcss-preset-env": "^6.7.0",
+    "react-refresh": "^0.10.0",
     "sass": "^1.43.2",
     "sass-loader": "^12.2.0",
     "webpack": "^5.58.2",
